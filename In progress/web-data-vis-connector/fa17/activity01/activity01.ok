@@ -1,0 +1,15 @@
+{
+  "name": "Activity 1",
+  "endpoint": "cal/ds101/su17/lab02",
+  "src": [
+    "activity01.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
